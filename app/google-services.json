@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "449294983445",
+    "firebase_url": "https://droidwars-d132e.firebaseio.com",
+    "project_id": "droidwars-d132e",
+    "storage_bucket": "droidwars-d132e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449294983445:android:7b5b1ae78a865add",
+        "android_client_info": {
+          "package_name": "com.example.ajinkya.droidwars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449294983445-djkhkff706k4m6o3kagh3mp5bkh6q97s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ajinkya.droidwars",
+            "certificate_hash": "56329c10040787cdd86813cc992eda717613e353"
+          }
+        },
+        {
+          "client_id": "449294983445-3ajofcuptq8c1it31uhlp0o26647huvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOvbPUJwrHapS8PxmxxFboRBHWu9mp4hE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449294983445-3ajofcuptq8c1it31uhlp0o26647huvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

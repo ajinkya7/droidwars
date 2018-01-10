@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_margin="@dimen/cardview_default_elevation"
+    tools:context="com.example.ajinkya.droidwars.MainActivity">
+
+    <ImageView
+        android:id="@+id/pheonix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/firelogo"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="@string/edit_email_hint"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/pheonix"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="@string/edit_password_hint"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        style="@style/FirebaseUI.Button.AccountChooser.FacebookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:layout_marginStart="145dp"
+        android:text="@string/button_login"
+        android:layout_below="@+id/editPassword" />
+
+
+    <Button
+        android:id="@+id/buttonAnonymous"
+        style="@style/FirebaseUI.Button.AccountChooser.GoogleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonLogin"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:text="@string/button_annonymous"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/buttonSignup"
+        style="@style/FirebaseUI.Button.AccountChooser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAnonymous"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/fui_bgTwitter"
+        android:gravity="center"
+        android:text="@string/button_signup"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="end"
+        android:text="@string/copyright"
+        android:textSize="12sp" />
+
+    
+
+</RelativeLayout>

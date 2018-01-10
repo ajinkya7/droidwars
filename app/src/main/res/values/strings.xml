@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ANONYTTER</string>
+    <string name="edit_email_hint">Enter Email</string>
+    <string name="edit_password_hint">Password</string>
+    <string name="button_login">Login</string>
+    <string name="button_signup">Signup</string>
+    <string name="button_register">Register</string>
+    <string name="button_logout">Logout</string>
+    <string name="button_annonymous">Anonymous Login</string>
+    <string name="copyright">©2018 AJINKYA_EPH</string>
+    <string name="already_registered">Already Registered? Login</string>
+    <string name="message_hint">Enter Message</string>
+    <string name="button_send">Post</string>
+    <string name="button_like">Like</string>
+
+</resources>
